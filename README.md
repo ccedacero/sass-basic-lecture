@@ -1,4 +1,4 @@
-# SASS in React
+# SASS Basics
 
 ## Objectives
 - What is SASS? What does it give that out of the box CSS doesn't?
@@ -8,7 +8,7 @@
   - Nested Selectors
   - Variables
   - Mixins
-  - Extends
+  - Extends***
   - Other Functions & functionality
 - How to structure SASS files***
 
@@ -20,11 +20,15 @@
 ## Installing Sass Locally & Command Line Compilation
 
 ### [Install Sass](https://sass-lang.com/install)
+`sass --watch style.css`
 
 ## VSCode Plugin for SASS compilation
 
 ### [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
 ### [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+
+## Codepen also for following along
+### [CodePen link](https://codepen.io/janmez/pen/ZEQYXxz)
 
 ## Nested Selectors
 ```
@@ -103,7 +107,7 @@ $main-color: #FEC3A6;
 - `lighten(color, percentage)`
 - `darken(color, percentage)`
 - `transparentize(color, alpha-amount)`
-- `random(number)`
+- `rgba(color, alpha-amount)`
 
 
 ## Resources
