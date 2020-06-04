@@ -9,20 +9,25 @@
 .section{
 	width: 100%;
 	height: auto;
-	min-height: 300px;
 }
-.section:nth-child(2n) {
-  background: #7FDBFF;
+.section__one {
+	background: #FCFCFC;
 }
-.section:nth-child(2n+1) {
-  background: #FCFCFC;
+.section__two{
+	background: #76b5ca;
+}
+.section__three {
+	background: #FCFCFC;
+}
+.section__four{
+	background: #76b5ca;
 }
 
 /* Section Heading Styles */
 .heading{
-	margin: 0 auto;
 	padding-top: 15px;
 	font-family: 'Roboto Mono', Courier;
+	font-size: 2.15rem;
 }
 .title{
 	color: #333333;
@@ -38,7 +43,7 @@
 	width: 70%;
 	margin: 0 auto;
 	padding: 30px 0 30px 0;
-	font-family: 'Roboto', Helvetica;
+	font-family: 'Roboto';
 	font-size: 1.15rem;
 	font-weight: 300;
 	line-height: 1.5;
@@ -51,10 +56,10 @@ img{
   margin: 10px 0 10px 0;
 }
 h2{
-  font-family: 'Roboto Mono', Courier;
+  font-family: 'Roboto Mono';
   font-size: 1.5rem;
   line-height: 1.5;
-  opacity: .9;
+  color: #76b5ca;
 	margin-left: 30px;
 	margin-bottom: 30px;
 }
