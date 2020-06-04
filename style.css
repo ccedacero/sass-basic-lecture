@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400|Roboto+Mono');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Section Styles */
+.section{
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+}
+.section:nth-child(2n) {
+  background: #7FDBFF;
+}
+.section:nth-child(2n+1) {
+  background: #FCFCFC;
+}
+
+/* Section Heading Styles */
+.heading{
+	margin: 0 auto;
+	padding-top: 15px;
+	font-family: 'Roboto Mono', Courier;
+}
+.title{
+	color: #333333;
+	font-size: 1.5rem;
+	margin-left: 50px;
+	line-height: 2;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+/* Inner Section Styles */
+.innercontent {
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px 0 30px 0;
+	font-family: 'Roboto', Helvetica;
+	font-size: 1.15rem;
+	font-weight: 300;
+	line-height: 1.5;
+}
+p{
+  margin: 10px 0 10px 0;
+}
+img{
+  max-width: 100%;
+  margin: 10px 0 10px 0;
+}
+h2{
+  font-family: 'Roboto Mono', Courier;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  opacity: .9;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
